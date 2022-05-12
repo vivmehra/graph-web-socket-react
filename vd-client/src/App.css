@@ -23,6 +23,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+
+  max-height: 300px;
+}
 
 .App-link {
   color: #61dafb;
